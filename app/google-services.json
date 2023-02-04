@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596965509550",
+    "project_id": "hereis-8ac87",
+    "storage_bucket": "hereis-8ac87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596965509550:android:5c6522144fb5bcbbff203f",
+        "android_client_info": {
+          "package_name": "com.example.hereis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596965509550-dpvjvtcftkmvs5qvaue4vg1jfg8jj2q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoMLzWwtOko21iFChkj0UzlGeVYsmepGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596965509550-dpvjvtcftkmvs5qvaue4vg1jfg8jj2q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
