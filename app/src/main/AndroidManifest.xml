@@ -34,7 +34,7 @@
             android:value="AIzaSyDLtI2HdtH-gNELL7-Q6ETUN83UD7-Aj6c" />
 
         <activity
-            android:name=".MapsActivityretro"
+            android:name=".retrofit.MapsActivityretro"
             android:exported="false"
             android:label="@string/title_activity_maps_activityretro" />
         <activity

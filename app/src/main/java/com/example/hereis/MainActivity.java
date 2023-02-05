@@ -10,6 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.hereis.retrofit.CEP;
+import com.example.hereis.retrofit.CEPService;
+import com.example.hereis.retrofit.MapsActivityretro;
+
 import java.util.List;
 
 import retrofit2.Call;
@@ -19,6 +23,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
+
 private Button btnproximo;
 String estado, cidade, localidade;
     private TextView textView;
@@ -46,6 +51,7 @@ private Button btnbuscar;
         setContentView(R.layout.activity_main);
         btnproximo = findViewById(R.id.btnproximo);
         btnbuscar = findViewById(R.id.btnbuscar);
+
         textView = findViewById(R.id.textView);
         edtcidade = findViewById(R.id.edtcidade);
         edtestado = findViewById(R.id.edtestado);
@@ -54,6 +60,7 @@ private Button btnbuscar;
         retrofit = new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create()).build();
+
 
 
         btnproximo.setOnClickListener(new View.OnClickListener() {
@@ -67,6 +74,7 @@ private Button btnbuscar;
      btnbuscar.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+
             //Intent retro =new Intent(getApplicationContext(),buscaActivity.class);
           //  startActivity(retro);
             estado = edtestado.getText().toString();
@@ -99,4 +107,3 @@ private Button btnbuscar;
         });
     }
  }
-

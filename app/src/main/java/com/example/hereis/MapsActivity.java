@@ -17,6 +17,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.hereis.retrofit.Permissoes;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
