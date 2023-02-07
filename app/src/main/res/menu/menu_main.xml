@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hereis.prototi.MainActivity">
+    <item
+        android:id="@+id/itemSalvar"
+        android:orderInCategory="100"
+        android:title="Hereis"
+        app:showAsAction="always"
+        android:icon="@drawable/common_google_signin_btn_text_light"
+        />
+</menu>

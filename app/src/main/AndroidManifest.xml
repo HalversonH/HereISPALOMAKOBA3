@@ -16,6 +16,21 @@
         android:theme="@style/Theme.Hereis"
         tools:targetApi="31">
         <activity
+            android:name=".prototi.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Hereis.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".buscaActivity"
             android:exported="false" />
         <!--
@@ -34,26 +49,13 @@
             android:value="AIzaSyDLtI2HdtH-gNELL7-Q6ETUN83UD7-Aj6c" />
 
         <activity
-            android:name=".MapsActivityretro"
+            android:name=".retrofit.MapsActivityretro"
             android:exported="false"
             android:label="@string/title_activity_maps_activityretro" />
         <activity
             android:name=".MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
     </application>
 
 </manifest>
